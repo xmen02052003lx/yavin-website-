@@ -74,6 +74,16 @@
 .show {
     opacity: 1;
 }
+#designer {
+    transition: all 0.2s;
+    border-bottom: 4px solid #cc2973;
+    &:hover {
+        scale: 1.05;
+        transform: rotate(5deg);
+        background-color: #000;
+        border-bottom: none;
+    }
+}
 // Tablet size
 @media (max-width: 992px) {
     .xl-text {
